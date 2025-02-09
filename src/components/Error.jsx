@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Error = ({ title, message, onConfirm }) => {
+export default function Error({ title, message, onConfirm }) {
   return (
     <div className="error">
       <h2>{title}</h2>
@@ -13,7 +11,5 @@ const Error = ({ title, message, onConfirm }) => {
         </div>
       )}
     </div>
-  )
+  );
 }
-
-export default Error
